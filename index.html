@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Task Generator</title>
+</head>
+<body>
+    <main>
+    <h1 class="header">Randomize your task</h1>
+    <div class="container">
+        <div class="task-container">
+            <input type="text" name="task" id="task" placeholder="Enter your task">
+            <button id="addTask">+</button>
+            <ul id="listTask"></ul>
+        </div>
+        <div class="random-container">
+            <h2 id="displayTask"></h2>
+            <button onclick="randomTask()">Randomize</button>
+        </div>
+    </div>
+    </main>
+    <script src="src/script.js"></script>
+</body>
+</html>

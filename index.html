@@ -12,16 +12,18 @@
     <h1 class="header">Randomize your task</h1>
     <div class="container">
         <div class="task-container">
+        <div>
             <input type="text" name="task" id="task" placeholder="Enter your task">
-            <button id="addTask">+</button>
+            <button id="addTask" class="addBtn">+</button>
+        </div>
             <ul id="listTask"></ul>
         </div>
         <div class="random-container">
             <h2 id="displayTask"></h2>
-            <button onclick="randomTask()">Randomize</button>
+            <button onclick="randomTask()" class="randomBtn">Randomize</button>
         </div>
     </div>
     </main>
-    <script src="src/script.js"></script>
+    <script src="src/js/script.js"></script>
 </body>
 </html>
